@@ -1,0 +1,15 @@
+name: TNTBlockDamage
+version: '1.0-SNAPSHOT'
+main: net.tmkspace.tntBlockDamage.TNTBlockDamage
+api-version: '1.21'
+
+commands:
+  tntblockdamage:
+    description:
+    usage: /<command>
+    permission: tntblockdamage.use
+
+permissions:
+  tntblockdamage.use:
+    description:
+    default: true
